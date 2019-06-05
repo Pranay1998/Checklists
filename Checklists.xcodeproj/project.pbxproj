@@ -15,10 +15,21 @@
 		F67B653C227CAE8700290426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F67B653B227CAE8700290426 /* Assets.xcassets */; };
 		F67B6549227CAFD000290426 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67B6548227CAFD000290426 /* ChecklistViewController.swift */; };
 		F67B654B227CC09800290426 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67B654A227CC09800290426 /* ChecklistItem.swift */; };
+		F69B1F6322A80874006D9B19 /* ChecklistsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69B1F6222A80874006D9B19 /* ChecklistsUITests.swift */; };
 		F6FF3E1C2280838100AFD3B3 /* AllListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FF3E1B2280838100AFD3B3 /* AllListsViewController.swift */; };
 		F6FF3E202280918400AFD3B3 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FF3E1F2280918400AFD3B3 /* Checklist.swift */; };
 		F6FF3E2222809A3400AFD3B3 /* ListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FF3E2122809A3400AFD3B3 /* ListDetailViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F69B1F6522A80874006D9B19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F67B6529227CAE8500290426 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F67B6530227CAE8500290426;
+			remoteInfo = Checklists;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F64BB374227E076E0073A8EC /* ItemDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
@@ -31,6 +42,9 @@
 		F67B6540227CAE8700290426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F67B6548227CAFD000290426 /* ChecklistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
 		F67B654A227CC09800290426 /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		F69B1F6022A80874006D9B19 /* ChecklistsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChecklistsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69B1F6222A80874006D9B19 /* ChecklistsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistsUITests.swift; sourceTree = "<group>"; };
+		F69B1F6422A80874006D9B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6FF3E1B2280838100AFD3B3 /* AllListsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListsViewController.swift; sourceTree = "<group>"; };
 		F6FF3E1F2280918400AFD3B3 /* Checklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
 		F6FF3E2122809A3400AFD3B3 /* ListDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +52,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		F67B652E227CAE8500290426 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69B1F5D22A80874006D9B19 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				F67B6533227CAE8500290426 /* Checklists */,
+				F69B1F6122A80874006D9B19 /* ChecklistsUITests */,
 				F67B6532227CAE8500290426 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				F67B6531227CAE8500290426 /* Checklists.app */,
+				F69B1F6022A80874006D9B19 /* ChecklistsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,6 +127,15 @@
 				F67B6540227CAE8700290426 /* Info.plist */,
 			);
 			path = Checklists;
+			sourceTree = "<group>";
+		};
+		F69B1F6122A80874006D9B19 /* ChecklistsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F69B1F6222A80874006D9B19 /* ChecklistsUITests.swift */,
+				F69B1F6422A80874006D9B19 /* Info.plist */,
+			);
+			path = ChecklistsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +158,24 @@
 			productReference = F67B6531227CAE8500290426 /* Checklists.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F69B1F5F22A80874006D9B19 /* ChecklistsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69B1F6722A80874006D9B19 /* Build configuration list for PBXNativeTarget "ChecklistsUITests" */;
+			buildPhases = (
+				F69B1F5C22A80874006D9B19 /* Sources */,
+				F69B1F5D22A80874006D9B19 /* Frameworks */,
+				F69B1F5E22A80874006D9B19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F69B1F6622A80874006D9B19 /* PBXTargetDependency */,
+			);
+			name = ChecklistsUITests;
+			productName = ChecklistsUITests;
+			productReference = F69B1F6022A80874006D9B19 /* ChecklistsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -138,6 +188,10 @@
 				TargetAttributes = {
 					F67B6530227CAE8500290426 = {
 						CreatedOnToolsVersion = 10.2.1;
+					};
+					F69B1F5F22A80874006D9B19 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F67B6530227CAE8500290426;
 					};
 				};
 			};
@@ -155,6 +209,7 @@
 			projectRoot = "";
 			targets = (
 				F67B6530227CAE8500290426 /* Checklists */,
+				F69B1F5F22A80874006D9B19 /* ChecklistsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -166,6 +221,13 @@
 			files = (
 				F67B653C227CAE8700290426 /* Assets.xcassets in Resources */,
 				F67B653A227CAE8500290426 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69B1F5E22A80874006D9B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,7 +250,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F69B1F5C22A80874006D9B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69B1F6322A80874006D9B19 /* ChecklistsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F69B1F6622A80874006D9B19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F67B6530227CAE8500290426 /* Checklists */;
+			targetProxy = F69B1F6522A80874006D9B19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F67B6538227CAE8500290426 /* Main.storyboard */ = {
@@ -323,7 +401,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3VB2FK8A99;
+				DEVELOPMENT_TEAM = 4P9MT86LHR;
 				INFOPLIST_FILE = Checklists/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -342,7 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3VB2FK8A99;
+				DEVELOPMENT_TEAM = 4P9MT86LHR;
 				INFOPLIST_FILE = Checklists/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -353,6 +431,44 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F69B1F6822A80874006D9B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4P9MT86LHR;
+				INFOPLIST_FILE = ChecklistsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oanda.ChecklistsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Checklists;
+			};
+			name = Debug;
+		};
+		F69B1F6922A80874006D9B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4P9MT86LHR;
+				INFOPLIST_FILE = ChecklistsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oanda.ChecklistsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Checklists;
 			};
 			name = Release;
 		};
@@ -373,6 +489,15 @@
 			buildConfigurations = (
 				F67B6544227CAE8700290426 /* Debug */,
 				F67B6545227CAE8700290426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69B1F6722A80874006D9B19 /* Build configuration list for PBXNativeTarget "ChecklistsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69B1F6822A80874006D9B19 /* Debug */,
+				F69B1F6922A80874006D9B19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

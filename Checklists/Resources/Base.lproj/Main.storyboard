@@ -346,6 +346,9 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Checklists" largeTitleDisplayMode="always" id="9ID-5B-Se7">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="mD2-5i-MlN">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="accessibilityLabel" value="AddButton"/>
+                            </userDefinedRuntimeAttributes>
                             <connections>
                                 <segue destination="e0A-hF-7SK" kind="show" identifier="AddChecklist" id="F5V-PY-9se"/>
                             </connections>
