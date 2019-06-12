@@ -18,6 +18,7 @@ class ChecklistItem: NSObject, Codable {
     var itemID: Int
     
     init(text: String, checked: Bool) {
+        this text will fail the build
         self.text = text
         self.checked = checked
         self.itemID = DataModel.nextChecklistItemID()
