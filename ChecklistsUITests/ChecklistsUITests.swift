@@ -35,6 +35,7 @@ class ChecklistsUITests: XCTestCase {
     }
 
     func testAddChecklist() {
+        XCTAssert(false)
         XCUIApplication().buttons.element(boundBy: 0).tap()
         XCUIApplication().buttons["AddButton"].tap()
         XCUIApplication().textFields["Name of the List"].typeText("Testing Application")
